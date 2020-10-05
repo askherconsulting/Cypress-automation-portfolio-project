@@ -25,8 +25,8 @@
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 /*jshint esversion: 8 */
 
-Cypress.Commands.add('login', (username, password) => {
-    cy.get('[data-testid=username]').type(username);
-    cy.get('[data-testid=password]').type(password);
-    cy.get('[data-testid=submit]').click();
+Cypress.Commands.add('login', (username, password) => {   
+    cy.get('#input-username').clear().type(username);
+    cy.get('#input-password').clear().type(password);
+    cy.get('.btn').click();
   });

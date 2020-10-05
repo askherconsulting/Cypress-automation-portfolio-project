@@ -1,10 +1,10 @@
 {
     "validCredentials": {
-      "username": "admin",
-      "password": "password"
+      "username": "demo",
+      "password": "demo"
     },
     "invalidCredentials": {
-      "username": "admin",
-      "password": "admin!"
+      "username": "invalid",
+      "password": "invalid!"
     }
   }
