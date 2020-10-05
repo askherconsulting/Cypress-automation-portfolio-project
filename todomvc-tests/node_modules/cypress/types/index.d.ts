@@ -4,7 +4,7 @@
 //                 Mike Woudenberg <https://github.com/mikewoudenberg>
 //                 Robbert van Markus <https://github.com/rvanmarkus>
 //                 Nicholas Boll <https://github.com/nicholasboll>
-// TypeScript Version: 3.0
+// TypeScript Version: 3.4
 // Updated by the Cypress team: https://www.cypress.io/about/
 
 /// <reference path="./cy-blob-util.d.ts" />
@@ -27,6 +27,7 @@
 // hmm, how to load it better?
 /// <reference path="./cypress-npm-api.d.ts" />
 
+/// <reference path="./net-stubbing.ts" />
 /// <reference path="./cypress.d.ts" />
 /// <reference path="./cypress-global-vars.d.ts" />
 /// <reference path="./cypress-type-helpers.d.ts" />

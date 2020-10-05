@@ -3,9 +3,7 @@
 
 describe('filtering', function() {
     beforeEach(() => {
-        cy.visit('https://amazon.com');
-        cy.get('#twotabsearchtextbox').type('baby shark{enter}');
-        cy.get('[href="/international-sales-offers/b/?ie=UTF8&node=15529609011&ref_=nav_cs_gb_intl"]').click();
+        cy.visit('http://todomvc-app-for-testing.surge.sh/');
 
         cy.get('.new-todo').type('Clean room{enter}');
         cy.get('.new-todo').type('Learn JavaScript{enter}');
